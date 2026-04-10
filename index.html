@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Olivario Vision | 2036</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --card: #16161a;
+            --accent: #00d4ff;
+            --text: #e0e0e6;
+            --muted: #94a3b8;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(rgba(10, 10, 12, 0.8), rgba(10, 10, 12, 0.8)), 
+                        url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2072');
+            background-size: cover;
+            text-align: center;
+        }
+
+        h1 { font-size: 4rem; margin-bottom: 0.5rem; color: var(--accent); }
+        .subtitle { font-family: 'JetBrains Mono', monospace; font-size: 1.2rem; color: var(--muted); }
+
+        .container { max-width: 1000px; margin: 0 auto; padding: 4rem 1rem; }
+
+        section { margin-bottom: 6rem; }
+        h2 { border-left: 4px solid var(--accent); padding-left: 1rem; margin-bottom: 2rem; font-size: 2rem; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        .card { background: var(--card); padding: 2rem; border-radius: 12px; border: 1px solid #2d2d33; }
+
+        .stat { font-size: 2rem; font-weight: bold; color: var(--accent); display: block; margin-top: 1rem; }
+        .cert-tag { display: inline-block; background: #1e293b; padding: 4px 12px; border-radius: 4px; font-size: 0.8rem; margin: 4px; border: 1px solid var(--accent); }
+
+        .vision-box { background: rgba(0, 212, 255, 0.05); border-left: 4px solid var(--accent); padding: 2rem; margin: 2rem 0; font-style: italic; }
+
+        footer { text-align: center; padding: 4rem; color: var(--muted); font-family: 'JetBrains Mono', monospace; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>JOSHUE OLIVARIO</h1>
+        <p class="subtitle">IT EXPERT | FINANCIAL STEWARD | VISION 2036</p>
+    </header>
+
+    <div class="container">
+        <section id="vision">
+            <h2>Financial Vision & Mission</h2>
+            <p>From humble beginnings in the Philippines to a life of consecrated stewardship. My journey is proof that the windows of heaven open for those who act with faith and discipline.</p>
+            <div class="vision-box">
+                "I aim to be a wise financial steward, able to provide for our family’s needs, and to bless others around us."
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>The Commitment</h3>
+                    <p>Honest Tithing. Generous Fast Offerings. Living within means. Tracking every dollar.</p>
+                </div>
+                <div class="card">
+                    <h3>The Legacy</h3>
+                    <p>Providing a home for our parents and helping Young Single Adults find employment to serve missions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="career">
+            <h2>The Path Past the Future</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Professional Profile</h3>
+                    <p>Network & Cybersecurity Expert at <strong>Google</strong>.</p>
+                    <span class="stat">PHP 365,500 /mo</span>
+                </div>
+                <div class="card">
+                    <h3>Certifications</h3>
+                    <div class="cert-tag">CompTIA A+</div>
+                    <div class="cert-tag">Network+</div>
+                    <div class="cert-tag">Security+</div>
+                    <div class="cert-tag">CCNA</div>
+                    <div class="cert-tag">Linux+</div>
+                    <div class="cert-tag">Ethical Hacker</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="finance">
+            <h2>Financial Fortress</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Net Worth</h3>
+                    <p>Total Assets minus Liabilities as of Jan 1, 2036.</p>
+                    <span class="stat">PHP 63,750,000</span>
+                </div>
+                <div class="card">
+                    <h3>Emergency Fund</h3>
+                    <p>12 Months of security split between HYSA and Mutual Funds.</p>
+                    <span class="stat">PHP 7,386,000</span>
+                </div>
+                <div class="card">
+                    <h3>Credit Score</h3>
+                    <p>An elite rating reflecting a decade of financial integrity.</p>
+                    <span class="stat">835</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="realestate">
+            <h2>Wealth Engine</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Portfolio</h3>
+                    <p>Stocks (PH & US), PERA, and Physical Gold.</p>
+                    <span class="stat">PHP 25,000,000</span>
+                </div>
+                <div class="card">
+                    <h3>Rental Empire</h3>
+                    <p>4 Townhouses & 5 AirBNBs across Balanga, Clark, and Tagaytay.</p>
+                    <span class="stat">9 Properties</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="family">
+            <h2>The Family & The Future</h2>
+            <p>Living in our 3-story home in Bataan. Married to Aila with 3 children: Belle (13, Musician) and Luke (10, Athlete).</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Transportation</h3>
+                    <p>2036 Toyota Rush. Saved since 2028. Paid in Full.</p>
+                    <span class="stat">PHP 0 Debt</span>
+                </div>
+                <div class="card">
+                    <h3>Adventure</h3>
+                    <p>Frequent travels to Japan, Australia, Hawaii, and South Korea.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>// SYSTEM STATUS: OPTIMIZED | PROJECT 2036 COMPLETE //</p>
+        <p>&copy; 2026-2036 Joshue Olivario</p>
+    </footer>
+
+</body>
+</html>
